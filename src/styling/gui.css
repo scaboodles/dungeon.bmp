@@ -1,0 +1,72 @@
+#toolkit{
+    border: 2px solid red;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    width: 64px; 
+    background-color: white;
+}
+
+#spriteDisplay{
+    border: 2px solid red;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 64px; 
+    background-color: white;
+}
+
+#context{
+    border: 2px solid purple;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+}
+
+button{
+    image-rendering: pixelated !important;
+}
+
+.toolkitUiElement{
+    height: 64px;
+    width: 64px;
+    background-size: cover; /* Adjust the background image to cover the entire button */
+    background-position: center; /* Center the background image */
+    background-color: transparent;
+    border: none;
+}
+
+#addCharPopup{
+    border: 2px solid red;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 64px;
+    width: 128px; 
+    background-color: white;
+}
+
+.activeSprite{
+    border: 2px solid black !important;
+    border-radius: 4px !important;
+}
+
+.activeSprite:hover{
+    border: 3px solid gold !important;
+}
+
+.widgetOverride{
+    border: none;
+}
+
+.trueHidden{
+    display: none;
+}

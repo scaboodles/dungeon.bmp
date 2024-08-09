@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "module": "NodeNext",
+        "lib": ["DOM", "ESNext"],
+        "esModuleInterop": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "moduleResolution": "NodeNext",
+
+        "baseUrl": ".",
+    },
+    "exclude": ["node_modules"]
+}
